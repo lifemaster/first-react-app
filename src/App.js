@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import Grid from 'react-bootstrap/lib/Grid';
@@ -34,21 +33,21 @@ class App extends Component {
   render() {
     return (
      <div className="App">
-     <HeaderWrapper>
-      <Grid>
-        <Header />
-      </Grid>
-     </HeaderWrapper>
-     <MenuWrapper>
-       <Grid>
-        <Menu />
-       </Grid>
-     </MenuWrapper>
-     <MainWrapper>
-       <Grid>
-        <Main />
-       </Grid>
-     </MainWrapper>
+      <HeaderWrapper>
+        <Grid>
+          <Header />
+        </Grid>
+      </HeaderWrapper>
+      <MenuWrapper>
+        <Grid>
+          <Menu />
+        </Grid>
+      </MenuWrapper>
+      <MainWrapper>
+        <Grid>
+          <Main />
+        </Grid>
+      </MainWrapper>
      </div>
     );
   }
